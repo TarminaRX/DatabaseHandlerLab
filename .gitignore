@@ -1,0 +1,7 @@
+run.sh
+.settings/
+run.ps1
+.project
+.classpath
+target/
+dependency-reduced-pom.xml
