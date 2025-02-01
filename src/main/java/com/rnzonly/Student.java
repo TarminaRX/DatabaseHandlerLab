@@ -4,18 +4,18 @@ public class Student {
   private String student_number, student_fname, student_mname, student_lname, student_sex, student_birth, student_department, student_address;
   private Integer student_start, student_units;
   public Student(String student_number, String student_fname, String student_mname, String student_lname,
-      String student_sex, String student_birth, String student_department, String student_address,
-      Integer student_start, Integer student_units) {
+      String student_sex, String student_birth, Integer student_start, String student_department, Integer student_units,
+      String student_address) {
     this.student_number = student_number;
     this.student_fname = student_fname;
     this.student_mname = student_mname;
     this.student_lname = student_lname;
     this.student_sex = student_sex;
     this.student_birth = student_birth;
-    this.student_department = student_department;
-    this.student_address = student_address;
     this.student_start = student_start;
+    this.student_department = student_department;
     this.student_units = student_units;
+    this.student_address = student_address;
   }
   public String getStudent_number() {
     return student_number;
